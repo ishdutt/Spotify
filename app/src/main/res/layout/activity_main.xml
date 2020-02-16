@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2020C0C"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/imaginedragons" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/araina" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/myworld" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/selena" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/araina3" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/taylorswift" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/lover" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/hybrid" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/rare" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/charlie" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/bruno" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/livingthings" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dualipa" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/bruno2" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/maroon" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton16"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/halsesy" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton17"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/shawn" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton18"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="130dp"
+                        android:maxHeight="130dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/onedirection" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
